@@ -65,6 +65,9 @@ class Othello {
             return true
         }
         if moves < 4 {
+            // For the first 4 moves, you must play in the center of the 8x8 board
+            if x != 4, x != 5 { return false }
+            if y != 4, y != 5 { return false }
             return true
         }
         

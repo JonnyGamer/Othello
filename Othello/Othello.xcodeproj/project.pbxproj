@@ -13,6 +13,8 @@
 		1BA5BADD276A708F0078E6A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5BADC276A708F0078E6A8 /* ViewController.swift */; };
 		1BA5BADF276A70910078E6A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA5BADE276A70910078E6A8 /* Assets.xcassets */; };
 		1BA5BAE2276A70910078E6A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA5BAE0276A70910078E6A8 /* Main.storyboard */; };
+		1BA5BAEB276A73360078E6A8 /* Othello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5BAEA276A73360078E6A8 /* Othello.swift */; };
+		1BA5BAED276A7C9E0078E6A8 /* Tiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5BAEC276A7C9E0078E6A8 /* Tiles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		1BA5BAE1276A70910078E6A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BA5BAE3276A70910078E6A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BA5BAE4276A70910078E6A8 /* Othello.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Othello.entitlements; sourceTree = "<group>"; };
+		1BA5BAEA276A73360078E6A8 /* Othello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Othello.swift; sourceTree = "<group>"; };
+		1BA5BAEC276A7C9E0078E6A8 /* Tiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				1BA5BAD4276A708F0078E6A8 /* AppDelegate.swift */,
 				1BA5BAD8276A708F0078E6A8 /* Actions.sks */,
 				1BA5BADA276A708F0078E6A8 /* GameScene.swift */,
+				1BA5BAEA276A73360078E6A8 /* Othello.swift */,
+				1BA5BAEC276A7C9E0078E6A8 /* Tiles.swift */,
 				1BA5BADC276A708F0078E6A8 /* ViewController.swift */,
 				1BA5BADE276A70910078E6A8 /* Assets.xcassets */,
 				1BA5BAE0276A70910078E6A8 /* Main.storyboard */,
@@ -140,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BA5BADD276A708F0078E6A8 /* ViewController.swift in Sources */,
+				1BA5BAED276A7C9E0078E6A8 /* Tiles.swift in Sources */,
 				1BA5BADB276A708F0078E6A8 /* GameScene.swift in Sources */,
 				1BA5BAD5276A708F0078E6A8 /* AppDelegate.swift in Sources */,
+				1BA5BAEB276A73360078E6A8 /* Othello.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

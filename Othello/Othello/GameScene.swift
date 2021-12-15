@@ -12,13 +12,13 @@ class GameScene: SKScene {
     var othello = Othello()
     
     override func didMove(to view: SKView) {
-        backgroundColor = .white
+        backgroundColor = .black
         
         // Othello Label
-        let othelloLabel = SKLabelNode.init(text: "Othello")
+        let othelloLabel = SKLabelNode.init(text: "Othello®")
         addChild(othelloLabel)
         othelloLabel.zPosition = 100
-        othelloLabel.fontColor = .black
+        othelloLabel.fontColor = .gray
         othelloLabel.fontName = ""
         othelloLabel.position = .init(x: 500, y: 935)
         othelloLabel.horizontalAlignmentMode = .center
@@ -29,7 +29,7 @@ class GameScene: SKScene {
         // Turn Label
         addChild(othello.turnLabel)
         othello.turnLabel.zPosition = 100
-        othello.turnLabel.fontColor = .black
+        othello.turnLabel.fontColor = .white
         othello.turnLabel.fontName = ""
         othello.turnLabel.position = .init(x: 500, y: 10)
         othello.turnLabel.horizontalAlignmentMode = .center
